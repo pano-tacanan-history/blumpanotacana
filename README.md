@@ -1,6 +1,6 @@
 # CLDF dataset derived from Blum et al.'s (2024) "A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America"
 
-[![CLDF validation](https://github.com/pano-tacanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-tacanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
 
 ## How to cite
 
@@ -112,7 +112,7 @@ We include a script that automatically extracts the correspondence patterns from
 ## Statistics
 
 
-[![CLDF validation](https://github.com/pano-tacanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-tacanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")

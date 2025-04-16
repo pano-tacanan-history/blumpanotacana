@@ -5,9 +5,7 @@ from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
 from pylexibank import Concept, Language, Lexeme
-from pyedictor import fetch
 from lingpy import Wordlist
-
 
 def unmerge(sequence):
     out = []
@@ -41,29 +39,6 @@ class Dataset(BaseDataset):
     concept_class = CustomConcept
     language_class = CustomLanguage
     lexeme_class = CustomLexeme
-
-    def cmd_download(self, args):
-        print("updating ...")
-        with open(self.raw_dir.joinpath("raw.tsv"), "w", encoding="utf-8") as f:
-            f.write(
-                fetch(
-                    "blumpanotacana",
-                    columns=[
-                        "CONCEPT",
-                        "DOCULECT",
-                        "SUBGROUP",
-                        "FORM",
-                        "VALUE",
-                        "TOKENS",
-                        "COGIDS",
-                        "ALIGNMENT",
-                        "MORPHEMES",
-                        "BORROWING",
-                        "NOTE"
-                    ],
-                    base_url="http://lingulist.de/edev"
-                )
-            )
 
     def cmd_makecldf(self, args):
         # add bib
