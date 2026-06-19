@@ -1,6 +1,6 @@
 # CLDF dataset derived from Blum et al.'s (2024) "A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America"
 
-[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
+[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana//workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana//actions?query=workflow%3ACLDF-validation)
 
 ## How to cite
 
@@ -18,7 +18,7 @@ This dataset is licensed under a CC-BY-4.0 license
 
 
 Conceptlists in Concepticon:
-- [Blum-2024-501](https://concepticon.clld.org/contributions/Blum-2024-501)
+- [Blum-2024-501](https://concepticon.clld.org/contributions/0)
 ## Notes
 
 ### Installing the necessary dependencies
@@ -112,12 +112,12 @@ We include a script that automatically extracts the correspondence patterns from
 ## Statistics
 
 
-[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana/workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana/actions?query=workflow%3ACLDF-validation)
-![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
-![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+[![CLDF validation](https://github.com/pano-takanan-history/blumpanotacana//workflows/CLDF-validation/badge.svg)](https://github.com/pano-takanan-history/blumpanotacana//actions?query=workflow%3ACLDF-validation)
+![Glottolog: 100%](etc/badge_languages.svg)
+![Concepticon: 100%](etc/badge_concepts.svg)
+![Source: 100%](etc/badge_sources.svg)
+![BIPA: 100%](etc/badge_bipa.svg)
+![CLTS SoundClass: 100%](etc/badge_sc.svg)
 
 - **Varieties:** 21 (linked to 19 different Glottocodes)
 - **Concepts:** 501 (linked to 501 different Concepticon concept sets)

@@ -1,4 +1,5 @@
-import attr
+import dataclasses
+from typing import Optional
 from collections import defaultdict
 import pathlib
 from clldutils.misc import slug
@@ -14,23 +15,23 @@ def unmerge(sequence):
     return out
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomConcept(Concept):
-    Spanish_Gloss = attr.ib(default=None)
+    Spanish_Gloss: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLanguage(Language):
-    SubGroup = attr.ib(default=None)
+    SubGroup: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLexeme(Lexeme):
-    Borrowing = attr.ib(default=None)
-    Partial_Cognacy = attr.ib(default=None)
-    Alignment = attr.ib(default=None)
-    Morphemes = attr.ib(default=None)
-    GroupedSounds = attr.ib(default=None)
+    Borrowing: Optional[str] = None
+    Partial_Cognacy: Optional[str] = None
+    Alignment: Optional[str] = None
+    Morphemes: Optional[str] = None
+    GroupedSounds: Optional[str] = None
 
 
 class Dataset(BaseDataset):

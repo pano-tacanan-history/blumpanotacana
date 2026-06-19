@@ -12,16 +12,18 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic and Barrientos, Carlos and Zariquiey, Roberto and List, Johann-Mattis. 2024. A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America. *Scientific Data* 11(92). https://doi.org/10.1038/s41597-024-02928-7
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Blum-2024-501</li></ol>
+[dc:format](http://purl.org/dc/terms/format) | <ol><li>https://concepticon.clld.org/contributions/Blum-2024-501</li></ol>
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/pano-takanan-history/blumpanotacana
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-takanan-history/blumpanotacana/tree/v1.2">pano-takanan-history/blumpanotacana v1.2</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.1">Glottolog v5.1</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.13.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/pano-takanan-history/blumpanotacana/
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/pano-takanan-history/blumpanotacana//tree/4aa1b9e">pano-takanan-history/blumpanotacana/  v1.2-2-g4aa1b9e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon  v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS  v2.3.0</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.14.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | blumpanotacana
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
+
+CustomLexeme(ID: str, Form: str, Value: str, Language_ID: str, Parameter_ID: str, Local_ID: str | None = None, Segments: list[str] = <factory>, Graphemes: list[str] | None = None, Profile: str | None = None, Source: list[str] = <factory>, Comment: str | None = None, Cognacy: str | None = None, Loan: bool | None = None, Borrowing: str | None = None, Partial_Cognacy: str | None = None, Alignment: str | None = None, Morphemes: str | None = None, GroupedSounds: str | None = None)
 
 property | value
  --- | ---
@@ -54,6 +56,8 @@ Name/Property | Datatype | Description
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
+CustomLanguage(ID: str = '', Name: str | None = None, ISO639P3code: str | None = None, Glottocode: str | None = None, Macroarea: str | None = None, Latitude: float | None = None, Longitude: float | None = None, Glottolog_Name: str | None = None, Family: str | None = None, SubGroup: str | None = None)
+
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
@@ -77,6 +81,8 @@ Name/Property | Datatype | Description
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
+CustomConcept(ID: str | None = '', Name: str | None = '', Concepticon_ID: str | None = None, Concepticon_Gloss: str | None = None, Spanish_Gloss: str | None = None)
+
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
@@ -94,6 +100,8 @@ Name/Property | Datatype | Description
 `Spanish_Gloss` | `string` | 
 
 ## <a name="table-cognatescsv"></a>Table [cognates.csv](./cognates.csv)
+
+A cognate or rather a cognacy judgement.
 
 property | value
  --- | ---
@@ -115,4 +123,3 @@ Name/Property | Datatype | Description
 [Alignment](http://cldf.clld.org/v1.0/terms.rdf#alignment) | list of `string` (separated by ` `) | 
 `Alignment_Method` | `string` | 
 `Alignment_Source` | `string` | 
-

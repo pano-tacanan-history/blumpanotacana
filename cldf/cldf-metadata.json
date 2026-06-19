@@ -5,25 +5,23 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": "Comparative wordlist for Panoan and Tacanan languages, as well as a selection of language isolates that have been hypothesized to be related to Pano-Tacanan.",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Blum-2024-501"
+        "https://concepticon.clld.org/contributions/Blum-2024-501"
     ],
-    "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Blum et al.'s (2024) \"A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America\"",
-    "dcat:accessURL": "https://github.com/pano-takanan-history/blumpanotacana",
+    "dcat:accessURL": "https://github.com/pano-takanan-history/blumpanotacana/",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/pano-takanan-history/blumpanotacana",
+            "rdf:about": "https://github.com/pano-takanan-history/blumpanotacana/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.2",
+            "dc:created": "v1.2-2-g4aa1b9e",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.1",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         },
         {
@@ -46,7 +44,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.3"
+            "dc:description": "3.14.6"
         },
         {
             "dc:title": "python-packages",
@@ -58,6 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:description": "CustomLexeme(ID: str, Form: str, Value: str, Language_ID: str, Parameter_ID: str, Local_ID: str | None = None, Segments: list[str] = <factory>, Graphemes: list[str] | None = None, Profile: str | None = None, Source: list[str] = <factory>, Comment: str | None = None, Cognacy: str | None = None, Loan: bool | None = None, Borrowing: str | None = None, Partial_Cognacy: str | None = None, Alignment: str | None = None, Morphemes: str | None = None, GroupedSounds: str | None = None)",
             "dc:extent": 10226,
             "tableSchema": {
                 "columns": [
@@ -181,6 +180,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:description": "CustomLanguage(ID: str = '', Name: str | None = None, ISO639P3code: str | None = None, Glottocode: str | None = None, Macroarea: str | None = None, Latitude: float | None = None, Longitude: float | None = None, Glottolog_Name: str | None = None, Family: str | None = None, SubGroup: str | None = None)",
             "dc:extent": 21,
             "tableSchema": {
                 "columns": [
@@ -251,6 +251,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:description": "CustomConcept(ID: str | None = '', Name: str | None = '', Concepticon_ID: str | None = None, Concepticon_Gloss: str | None = None, Spanish_Gloss: str | None = None)",
             "dc:extent": 501,
             "tableSchema": {
                 "columns": [
@@ -287,6 +288,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:description": "A cognate or rather a cognacy judgement.",
             "dc:extent": 10226,
             "tableSchema": {
                 "columns": [
